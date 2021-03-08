@@ -1,0 +1,118 @@
+Frontend Folder Structure
+--|
+  |--src
+      |-- components
+      |       |-- pages
+      |       |-- templates
+      |       |-- UI
+      |       |     |-- atoms
+      |       |     |       |-- atom
+      |       |     |       |     |-- index.js
+      |       |     |       |     |-- styles.scss
+      |       |     |       |     |-- atom.tests.js
+      |       |     |       |     |-- stories.js (if necessary)
+      |       |     |-- molecules
+      |       |     |       |-- molecule
+      |       |     |       |     |-- index.js
+      |       |     |       |     |-- molecule.logic.js      
+      |       |     |       |     |-- styles.scss
+      |       |     |       |     |-- molecule.tests.js
+      |       |     |       |     |-- stories.js (if necessary)
+      |       |     |-- organisms
+      |       |     |       |-- organism
+      |       |     |       |     |-- index.js
+      |       |     |       |     |-- organism.logic.js      
+      |       |     |       |     |-- styles.scss
+      |       |     |       |     |-- organism.tests.js
+      |       |     |       |     |-- stories.js (if necessary)
+      |-- queries
+
+
+Website Layout
+--|
+  |-- Home Page
+  |       |-- Header --|
+  |       |     |-- Logo
+  |       |     |     |-- Home Page link
+  |       |     |-- About
+  |       |     |     |-- About Us Page link
+  |       |     |-- Fundraisers
+  |       |     |     |-- Fundraisers Page link
+  |       |     |-- Login Button
+  |       |     |     |-- Secondary Call-To-Action Button link
+  |       |-- Main Fold
+  |       |     |-- Banner Title
+  |       |     |-- Banner Sub-Title
+  |       |     |-- Start a Fundraiser
+  |       |     |     |-- Primary Call-To-Action Button link
+  |       |-- Categories
+  |       |     |-- Categories Slider
+  |       |     |     |-- Category
+  |       |     |     |     |-- Category of Fundraiser Page link
+  |       |-- Fundraisers
+  |       |     |-- Fundraisers Grid (based on recommendation engine)
+  |       |     |     |-- Recommendation Engine
+  |       |     |     |     |-- Location based
+  |       |     |     |     |-- Collaborative Filtering
+  |       |-- Testimonial(s)
+  |       |     |-- Trusted Users
+  |       |     |      |-- Educate An Orphan
+  |       |     |      |-- Model Peace Forum
+  |       |-- Join our Email List
+  |       |     |-- Email List Form
+  |       |-- Bottom Primary Call To Action Section
+  |       |     |-- Start Your Fundraiser Today
+  |       |-- Footer (4 column footer) --|
+  |       |     |-- Services (1)
+  |       |     |     |-- Online Donations
+  |       |     |     |-- Peer-to-peer campaigns
+  |       |     |     |-- Fundraising Events
+  |       |     |     |-- Community Fundraising
+  |       |     |-- Who We Are (3)
+  |       |     |     |-- About Us
+  |       |     |     |-- Press
+  |       |     |     |-- Fees
+  |       |     |     |-- Careers
+  |       |     |     |-- Partners
+  |       |     |     |-- Our commitment
+  |       |     |-- Features (2)
+  |       |     |     |-- Fundraising Profiles
+  |       |     |     |-- Secure Payment Processing
+  |       |     |     |-- Peer-to-Peer Fundraising
+  |       |     |     |-- Donor Relationships Support
+  |       |     |     |-- Gamification
+  |       |     |     |-- Offline Donations
+  |       |     |     |-- All Features
+  |       |     |-- Contacts (4)
+  |       |     |     |-- Email Address
+  |       |     |     |-- Telephone Contacts
+  |       |     |     |-- Social Media Handles
+  |       |     |     |     |-- Twitter
+  |       |     |     |     |-- Instagram
+  |       |     |     |     |-- LinkedIn
+  |       |     |     |     |-- Facebook
+  |       |     |     |     |-- YouTube
+  |       |     |     |-- Office Locations 
+  |       |     |     |-- Sitemap
+  |       |     |-- Terms Section
+  |       |     |     |-- Logo
+  |       |     |     |     |-- Terms of Use Page link
+  |       |     |     |     |-- Privacy Policy Page link
+  |       |     |     |     |-- Cookie Policy Page link
+  |-- About Us Page
+  |       |-- Discover Yambaya's Manifesto
+  |       |-- Short About Yambaya
+  |       |-- Team Member
+  |       |     |-- Name
+  |       |     |-- Role
+  |       |     |-- Social Media Handles
+  |       |     |-- Short About
+  |       |-- Group Photo
+  |-- How Yambaya Works page
+  |-- Fundraisers Page
+  |-- Fundraiser Page
+  |-- Donation Page
+  |-- Terms of Service & Privacy Policy Page & Cookie Policy
+  |-- Blog Page
+  |-- Page-Not-Found Page
+
